@@ -1,4 +1,6 @@
 ---
 applications:
-- name: fortune
+- name: fortune-ui
   path: target/fortune-teller-ui-0.0.1-SNAPSHOT.jar
+  env:
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+}}'
